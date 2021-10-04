@@ -1,0 +1,141 @@
+#banner,#menu,#main,#footer{
+    position: relative;
+    float: left;
+}
+#banner{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    display: block;
+}
+#logo{
+    position: absolute;
+}
+#title{
+    width: 620px;
+    height: 150px;
+    float: right;
+    display: block;
+}
+#bg_title{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    color: darkseagreen;
+    margin-top: 40px;
+    float: right;
+}
+#menu{
+    width: 1333px;
+    height: 50px;
+    background-color: cadetblue;
+    margin-top: 15px;
+    float: right;
+}
+#bg_menu{
+    display:  inline-flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    float: left;
+}
+ul{
+    font-size: 24px;
+    color: red;
+    float: left; 
+    margin: 0px;
+    padding: 0px;
+    list-style: none;/*xóa kí hiệu của danh sách không thứ tự*/
+}
+li{
+    float: left;
+}
+a.ten_menu_ngang, a.ten_menu_doc{
+    text-decoration-line: none;/*xóa dấu gạch chân của link*/
+}
+li:hover{
+    background-color: rgb(93, 136, 138);
+}
+#main{
+    width: 1333px;
+    height: 2000px;
+    background-color: thistle;
+    float: right;
+    margin-top: 10px;
+    margin-left: 2%;
+}
+#left{
+    background-color: turquoise;
+    width: 15%;
+    height: 2000px;
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#center{
+    background-color: yellowgreen;
+    width: 68%;
+    height: 600px;
+    margin-left: 1%;
+    float: left;
+    
+}
+#right{
+    background-color: palegreen;
+    width: 15%;
+    height: 2000px;
+    margin-left: 1%;
+    float: left;
+    font-size: 24px;
+    color: red;
+}
+#footer{
+    background-color: purple;
+    width: 1333px;
+    height: 80px;
+    font-size: 18px;
+    float: right;
+    margin-top: 2px;
+    margin-bottom: 2px
+}
+
+/*phân trang*/
+.phan_trang a{
+    font-size:36px;
+    margin-left:5px;
+    margin-right:5px;
+    text-decoration: none;
+    color:blue;
+}
+.phan_trang a:hover{
+    background-color:cornsilk;
+    color:red;
+}    
+/*phân trang*/
+a{
+    text-decoration: none;
+}
+
+/*từ sản phẩm mới bên cột trái*/
+#spmoi,#noi_bat,#title_gh,#quangcao{
+    width:150px;
+    height: 25px;
+    background-color: darkgray;
+    color: red;
+    border: 2px solid darkgray;
+    margin-left: 25px;
+}
+#noi_bat{
+    width:180px;
+    font-size: 24px;
+    margin-left: 8px;
+}
+#vunggiohang{
+    background-color: darkorange;
+    border:4px solid darkorange;
+}
+#title_gh,#quangcao{
+    font-size: 24px;
+    text-align: center;
+}
